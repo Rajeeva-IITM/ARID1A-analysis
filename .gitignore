@@ -1,1 +1,12 @@
 *Log*
+.Rproj.user
+
+# Outputs
+outputs/sampling/*
+
+# R files
+r_code/renv/*
+r_code/.Rhistory
+r_code/r_code.Rproj
+r_code/.RData
+r_code/.Rprofile
