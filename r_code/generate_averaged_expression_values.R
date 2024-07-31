@@ -21,4 +21,4 @@ avg_df <- tpm %>%
   ) %>% 
   select(-all_of(newcolnames))
 
-write_csv(avg_df, "../data/rnaseq/tpm_avg_recon.tsv")
+write_tsv(avg_df, "../data/rnaseq/tpm_avg_recon.tsv")

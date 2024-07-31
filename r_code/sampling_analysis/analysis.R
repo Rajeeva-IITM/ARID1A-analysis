@@ -6,7 +6,10 @@ library(purrr)
 library(viridisLite)
 
 # Reading data ----
-df  <- read_parquet("../outputs/sampling/localgini_sprintcore/final/common.parquet")
+df  <- read_parquet(
+  "../outputs/sampling/localgini_sprintcore_avg/final/common.parquet",
+  # as_data_frame = FALSE
+)
 
 # Preliminary analysis ----
 
@@ -37,15 +40,33 @@ compare_dist <- function(data, condition1, condition2, test=ks.test) {
   return(list(fc=fc_result, pval=result))
 }
 
+get_fc <- function(res, cutoff=0.82) {
+  res$fc %>% 
+    keep(\(x) x>0.82) %>% 
+    t %>% 
+    t %>% 
+    as_tibble(rownames = "Reactions", .name_repair = \(x) "Fold Change") %>% 
+    return
+}
 
+get_pval <- function(res, cutoff=0.05) {
+  res$pval %>% 
+    p.adjust("fdr") %>% 
+    keep(\(x) x<0.05) %>% 
+    return
+}
 
-## GES1: WT - 2 reps
-res1 <- compare_dist(df, conditions[1], conditions[2], test=t.test) 
-pvals1 <- res1 %>% pluck('pval') %>% p.adjust(method='fdr') %>% keep(~.x<0.05)
-fc1 <- res1$fc %>% keep(~.x>0.82)
+## GES1: WT - ARID1A KO
+res1 <- compare_dist(df, conditions[1], conditions[2]) 
+pvals1 <- get_pval(res1)
+fc1 <- get_fc(res1)
 
 ## GES1: WT - Volasertib WT
-pvals2 <- compare_dist(df, conditions[1], conditions[3]) %>% p.adjust(method='fdr') %>% keep(~.x<0.05)
+res2 <- compare_dist(df, conditions[1], conditions[4])
+pvals2 <- get_pval(res2)
+fc2 <- get_fc(res2)
 
 ## GES1: ARID1A KO - ARID1A KO Volasertib
-pvals3 <- compare_dist(df, conditions[2], conditions[4]) %>% p.adjust(method='fdr') %>% keep(~.x<0.05)
+res3 <- compare_dist(df, conditions[2], conditions[3]) 
+pvals3 <- get_pval(res2)
+fc3 <- get_fc(res3)

@@ -10,3 +10,7 @@ r_code/.Rhistory
 r_code/r_code.Rproj
 r_code/.RData
 r_code/.Rprofile
+
+
+# MATLAB files
+matlab/*.asv

@@ -11,7 +11,7 @@ def verify_path(path: Path):
         os.makedirs(path)
     return path
 
-def main(model_dir, output_dir, sample_size=1000, seed=42, thinning=100, njobs=1):
+def main(model_dir, output_dir, sample_size=10000, seed=42, thinning=100, njobs=1):
     
     model_path = Path(model_dir)
     output_path = verify_path(Path(output_dir))

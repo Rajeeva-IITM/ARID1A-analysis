@@ -24,7 +24,8 @@ dfs <- list()
 
 i=1
 for(file in files){
-  annotation <- pluck(annot_df, filename(file)) # %>% gsub('_rep.*', '', .)
+  # annotation <- pluck(annot_df, filename(file)) # %>% gsub('_rep.*', '', .)
+  annotation <- filename(file)   # use this for models built on averaged data
   dfs[[i]] <- read_parquet(file) %>% 
     mutate(experiment = annotation) 
   i=i+1
@@ -35,10 +36,31 @@ common_cols <- dfs %>%
   reduce(intersect)
 
 df <- dfs %>% bind_rows()
+
+schema_list = map(rep(1, length(colnames(df))), \(x) float32()) %>%  
+  as.list()  
+names(schema_list)  <-  colnames(df)
+schema_list$experiment <- string()
+
+schema_final <- schema(schema_list)
+
+
 rm(dfs)
 
 common_df <- df %>% 
   select(where(~ !any(is.na(.))))
 
-write_parquet(df, "../outputs/sampling/localgini_sprintcore/final/full.parquet")
-write_parquet(common_df, "../outputs/sampling/localgini_sprintcore/final/common.parquet")
+
+common_df_schema <- schema_list %>% 
+  names() %>% 
+  keep(\(x) x %in% common_cols) %>% 
+  schema_list[.] %>% 
+  schema()
+
+df %>% 
+  arrow_table(schema = schema_final) %>% 
+  write_parquet(., "../outputs/sampling/localgini_sprintcore/final/full.parquet")
+
+common_df %>% 
+  arrow_table(schema = common_df_schema) %>% 
+  write_parquet(., "../outputs/sampling/localgini_sprintcore/final/common.parquet")
