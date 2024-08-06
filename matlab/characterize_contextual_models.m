@@ -8,8 +8,8 @@ addpath(getenv("COBRATOOLBOX_PATH"))
 % Defining a few functions
 jaccard = @(x, y) numel(intersect(x,y))/numel(union(x,y));
 
-out_dir = 'outputs/sampling_analysis/localgini_gimme_avg/';
-model_dir = 'outputs/builtmodels/localgini_gimme_avg';
+out_dir = 'outputs/sampling_analysis/localgini_sprintcore_avg/';
+model_dir = 'outputs/builtmodels/localgini_sprintcore_avg';
 files = ls(model_dir);
 files = files(3:end,:);
 
@@ -46,6 +46,7 @@ for i=1:numel(fields)
     for j=1:numel(fields)
         fieldname = strcat(fields{i}, '_minus_',fields{j});
         unique_reactions = setdiff(reactions.(fields{i}), reactions.(fields{j}));
+        unique_reactions_struct.(fieldname) = numel(unique_reactions);
         if numel(unique_reactions)==0
             continue
         end
@@ -53,7 +54,7 @@ for i=1:numel(fields)
         fea = FEA(full_model, unique_reactions_indices, 'subSystems');
         table = cell2table(fea);
 
-        savename = strcat(out_dir, '/fea_results', fieldname, '.csv');
+        savename = strcat(out_dir, '/fea_results/', fieldname, '.csv');
         writetable(table, savename)
     end
 end
