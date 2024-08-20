@@ -9,7 +9,7 @@ addpath(getenv("COBRATOOLBOX_PATH"))
 jaccard = @(x, y) numel(intersect(x,y))/numel(union(x,y));
 
 out_dir = 'outputs/sampling_analysis/localgini_sprintcore_avg/';
-model_dir = 'outputs/builtmodels/localgini_sprintcore_avg';
+model_dir = 'outputs/builtmodels/localgini_ sprintcore_avg';
 files = ls(model_dir);
 files = files(3:end,:);
 
@@ -50,7 +50,7 @@ for i=1:numel(fields)
         if numel(unique_reactions)==0
             continue
         end
-        unique_reactions_indices = find(contains(full_model.rxns, unique_reactions));
+        unique_reactions_indices = find(ismember(full_model.rxns, unique_reactions));
         fea = FEA(full_model, unique_reactions_indices, 'subSystems');
         table = cell2table(fea);
 
