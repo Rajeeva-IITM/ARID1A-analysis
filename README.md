@@ -15,6 +15,6 @@ Some of the code requires one to create `.env` file that should contain the vari
 - The others as per the needs of the user
 
 List of things to do code-wise:
-- [] Better code annotations
-- [] Cleaning up unnecessary ones
-- [] Configuring pre-commit to ensure clean commits
+- [ ] Better code annotations
+- [ ] Cleaning up unnecessary ones
+- [ ] Configuring pre-commit to ensure clean commits
