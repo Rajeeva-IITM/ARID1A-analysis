@@ -8,6 +8,19 @@ import argparse
 
 
 def verify_path(path: Path):
+    """
+    Verifies if a directory path exists, and if not, creates it
+
+    Parameters
+    ----------
+    path : Path
+        The path to the directory
+
+    Returns
+    -------
+    Path
+        The same path
+    """
     if not path.exists():
         print("Creating directory: \033[32m{}\033[0m".format(path))
         os.makedirs(path)
@@ -20,6 +33,24 @@ def main(
     modify_names=True,
     modify_names_file="../data/samplenames.tsv",
 ):
+    """
+    Reads multiple parquet files from a directory and combines them into one. The stem of each file is used as the value for the experiment column.
+
+    Parameters
+    ----------
+    files_dir : str or Path
+        The directory containing the parquet files
+    output_dir : str or Path
+        The directory where the combined data will be written to
+    modify_names : bool, optional
+        If True, the experiment names will be modified according to the file specified in the `modify_names_file` argument, by default True
+    modify_names_file : str or Path, optional
+        The file containing the mapping of old to new experiment names, by default "../data/samplenames.tsv"
+
+    Returns
+    -------
+    None
+    """
     output_dir = verify_path(Path(output_dir))
     files = list(Path(files_dir).glob("*.parquet"))
     dfs = list()
@@ -54,6 +85,8 @@ def main(
 
 
 if __name__ == "__main__":
+    
+    # Simple argument pars
     parser = argparse.ArgumentParser()
     parser.add_argument("--files_dir", type=str, required=True)
     parser.add_argument("--output_dir", type=str, required=True)
