@@ -58,3 +58,17 @@ FEA <- function(given_reactions, total_reactions, groups) {
     return()
   
 }
+
+plot_FEA <- function(fea_result, n=10, p.cutoff=0.05) {
+  fea_result %>% 
+    filter(Adj_pval<p.cutoff) %>%
+    arrange(-Fold_change) %>% 
+    slice_head(n=n) %>%
+  ggplot(aes(y=reorder(Group, -Fold_change), x=Fold_change, fill=-log10(Adj_pval))) +
+    geom_bar(stat = 'identity') +
+    labs(x="Fold Change", y="Reaction system", fill="Adj. log p-value") +
+    scale_fill_continuous(type='viridis') %>% 
+    return
+}
+
+# an example of the total reactions and groups can be found in data/recon_reaction_names.csv

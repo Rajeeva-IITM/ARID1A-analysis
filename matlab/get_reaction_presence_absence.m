@@ -13,9 +13,9 @@ all_reactions = recon3d.rxns;
 
 % Getting path to all the models
 
-sprint_model_paths = cellstr(ls("outputs\builtmodels\localgini_sprintcore_avg\*.mat"));
-gimme_model_paths = cellstr(ls("outputs\builtmodels\localgini_gimme_avg\*.mat"));
-init_model_paths = cellstr(ls("outputs\builtmodels\localgini_init_avg\*.mat"));
+sprint_model_paths = cellstr(ls("outputs\builtmodels\no_objective\localgini_sprintcore\*.mat"));
+% gimme_model_paths = cellstr(ls("outputs\builtmodels\localgini_gimme_avg\*.mat"));
+init_model_paths = cellstr(ls("outputs\builtmodels\no_objective\localgini_init\*.mat"));
 
 result_table = table(all_reactions, 'VariableNames', {'Reactions'});
 
@@ -25,8 +25,8 @@ for i=1:length(sprint_model_paths)
     sprint_model_name = strsplit(sprint_model_paths{i}, '.');
     sprint_model_name = ['sprint_' sprint_model_name{1}];
 
-    gimme_model_name = strsplit(gimme_model_paths{i}, '.');
-    gimme_model_name = ['gimme_' gimme_model_name{1}];
+    % gimme_model_name = strsplit(gimme_model_paths{i}, '.');
+    % gimme_model_name = ['gimme_' gimme_model_name{1}];
 
     init_model_name = strsplit(init_model_paths{i}, '.');
     init_model_name = ['init_' init_model_name{1}];
@@ -34,19 +34,12 @@ for i=1:length(sprint_model_paths)
     % Get the reactions in the context specific models and then see which
     % reactions are present and which aren't
 
-    sprint_model = readCbModel(['outputs\builtmodels\localgini_sprintcore_avg\' sprint_model_paths{i}]);
-    sprint_rxns = ismember(all_reactions, sprint_model.rxns);
-
-    gimme_model = readCbModel(['outputs\builtmodels\localgini_gimme_avg\' gimme_model_paths{i}]);
-    gimme_rxns = ismember(all_reactions, gimme_model.rxns);
-
-    init_model = readCbModel(['outputs\builtmodels\localgini_init_avg\' init_model_paths{i}]);
-    init_rxns = ismember(all_reactions, init_model.rxns);
+    
 
     result_table.(sprint_model_name) = sprint_rxns;
-    result_table.(gimme_model_name) = gimme_rxns;
+    % result_table.(gimme_model_name) = gimme_rxns;
     result_table.(init_model_name) = init_rxns;
 
 end
 
-writetable(result_table, "outputs\builtmodels\reaction_presence_absence matrix.csv")
+writetable(result_table, "outputs\builtmodels\no_objective\reaction_presence_absence matrix.csv")

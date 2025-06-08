@@ -1,29 +1,29 @@
----
-title: "Report - 19-8-24"
-format: 
-   typst:
-     # toc: true
-     fontsize: 12pt
-     section-numbering: 1.1.1.
-     columns: 1
-     papersize: a4
-     # css-property-processing: none
-     margin: 
-        x: 1in
-        y: 1.25in
-execute: 
-  echo: false
-  warning: false
-  freeze: auto      
-# prefer-html: true 
-mainfont: CMU Serif
-monofont: CMU Typewriter Text
-tbl-cap-location: top
-keep-typ: true
-editor: visual
-bibliography: references.bib
-bibliographystyle: apa
----
+|                                  |
+|----------------------------------|
+| tle: "Report - 19-8-24"          |
+| rmat:                            |
+| typst:                           |
+| \# toc: true                     |
+| fontsize: 12pt                   |
+| section-numbering: 1.1.1.        |
+| columns: 1                       |
+| papersize: a4                    |
+| \# css-property-processing: none |
+| margin:                          |
+| x: 1in                           |
+| y: 1.25in                        |
+| ecute:                           |
+| echo: false                      |
+| warning: false                   |
+| freeze: auto                     |
+| prefer-html: true                |
+| infont: CMU Serif                |
+| nofont: CMU Typewriter Text      |
+| l-cap-location: top              |
+| ep-typ: true                     |
+| itor: visual                     |
+| bliography: references.bib       |
+| bliographystyle: apa             |
 
 ```{=typst}
 #show link: set text(fill: rgb(0, 0, 255))
@@ -35,7 +35,7 @@ Two genes, ARID1A and STING, have been shown to affect the chemoresistance of ca
 
 # Hypothesis
 
--   There is a difference in metabolism between the wild-type cells and ARID1A knockouts 
+-   There is a difference in metabolism between the wild-type cells and ARID1A knockouts
 -   This difference makes ARID1A knockouts to be more susceptible to Volasertib treatment
 
 <!-- # Tasks -->
@@ -73,6 +73,11 @@ library(dplyr)
 library(readr)
 library(purrr)
 library(tidyr)
+
+theme_update(
+  axis.text = element_text(size=11),
+  axis.title = element_text(size=13)
+)
 ```
 
 # Methodology
@@ -149,7 +154,7 @@ This will be used as a baseline over which the built GSMM models will be evaluat
 #| fig-cap: The optimal growth rate of the context-specific model built using GIMME. All the models have a very similar growth rate.
 
 
-df <- read_csv("../../outputs/sampling_analysis/localgini_gimme_avg/growths.csv", col_types = "dddddd")
+df <- read_csv("../../outputs/sampling_analysis/localgini_sprintcore_avg/growths.csv", col_types = "dddddd")
 
 plot_growth <- function(df){
   df %>% 
@@ -176,7 +181,7 @@ In @fig-funcs, we observe that models built by GIMME have a similar growth rate 
 #| fig-cap: Growths of the INIT built models
 
 read_csv(
-  "../../outputs/sampling_analysis/localgini_init_avg/growths.csv",
+  "../../outputs/sampling_analysis/no_objective/init/growths.csv",
   col_types = "dddddd"
 ) %>% 
   plot_growth()
@@ -201,7 +206,7 @@ Due to these reasons, no further analysis was done with the INIT models.
 #| fig-cap: Growths of the SprintCore built models
 
 read_csv(
-  "../../outputs/sampling_analysis/localgini_sprintcore_avg/growths.csv",
+  "../../outputs/sampling_analysis/no_objective/sprintcore/growths.csv",
   col_types = "dddddd"
 ) %>% 
   plot_growth()
@@ -318,7 +323,7 @@ plot_fe_unique(
 )
 ```
 
-{{< pagebreak >}} 
+{{< pagebreak >}}
 
 ### GES1 wild type and GES1 ARID1A knockout
 
@@ -359,7 +364,7 @@ plot_fe_flux(
 -   Vitamin B6 and Steroid metabolism reactions are present in fewer numbers in the ARID1A knockout
 -   Bile acid synthesis reactions are enriched but they are out of place because GES1 is a gastric epithelial cell line whereas bile acid is produced only in the liver
 
-{{< pagebreak >}} 
+{{< pagebreak >}}
 
 ### GES1 ARID1A knockout - with Volasertib
 
@@ -397,10 +402,10 @@ plot_fe_flux(
 **Observations:**
 
 -   Exchange reactions are more prevalent in untreated ARID1A knockouts (@fig-comparison3-unique)
--   Vitamin B6 metabolism reactions seem to be enriched in Volasertib treated ARID1A knockouts but they were not enriched in untreated knockouts (@fig-comparison2-unique-2, @fig-comparison3-unique-2). 
+-   Vitamin B6 metabolism reactions seem to be enriched in Volasertib treated ARID1A knockouts but they were not enriched in untreated knockouts (@fig-comparison2-unique-2, @fig-comparison3-unique-2).
 -   Nucleotide interconversion reactions are more active in Volasertib treated ARID1A knockouts (@fig-comparison3-active)
 
-{{< pagebreak >}} 
+{{< pagebreak >}}
 
 ### OVCAR3: WT and ARID1A KO
 
@@ -441,7 +446,6 @@ plot_fe_flux(
 -   Sugar metabolism reactions are enriched in the wild type compared to ARID1A knockouts (@fig-comparison4-unique-1). This could explain the observation in @fig-sprint-growth where the wild type OVCAR3 grows better than the ARID1A knockout
 -   Conversely, nucleotide, lipid and amino acid metabolism reactions are more enriched in the ARID1A knockouts
 -   Interestingly keratan suphate degradation and aliphatic amino acid metabolism are more active in ARID1A knockouts compared to the wild-type OVCAR3 strains (@fig-comparison4-active)
-
 
 # Discussion
 

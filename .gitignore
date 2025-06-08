@@ -1,14 +1,18 @@
 *Log*
 .Rproj.user
+.Rhistory
+matrix.txt 
 
-# Outputs
+# Large folders
 outputs/sampling/*
+outputs/
+data/
 
 # R files
 r_code/renv/*
 r_code/.Rhistory
 r_code/r_code.Rproj
-r_code/.RData
+r_code/.RData*
 r_code/.Rprofile
 
 

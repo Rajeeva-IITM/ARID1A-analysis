@@ -7,7 +7,7 @@ library(viridisLite)
 
 
 
-out_dir <- '../outputs/sampling_analysis/localgini_sprintcore_avg/'
+out_dir <- '../outputs/sampling_analysis/clus_vs_disp'
 
 # Reading data ----
 df  <- read_parquet(

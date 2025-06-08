@@ -188,6 +188,7 @@ function [gcp]=ginicoeff(data)
         gc(i)=(G_num/G_den)*100;
     end
     
+    gc = abs(gc);
     for i=1:numel(gc)
         gcp(i)=prctile(data(i,:),gc(i));
     end

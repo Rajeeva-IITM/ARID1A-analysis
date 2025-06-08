@@ -30,18 +30,21 @@ def verify_path(path: Path):
 def main(
     files_dir,
     output_dir,
+    file_type="parquet",
     modify_names=True,
     modify_names_file="../data/samplenames.tsv",
 ):
     """
-    Reads multiple parquet files from a directory and combines them into one. The stem of each file is used as the value for the experiment column.
+    Reads multiple files (parquet or csv) from a directory and combines them into one. The stem of each file is used as the value for the experiment column.
 
     Parameters
     ----------
     files_dir : str or Path
-        The directory containing the parquet files
+        The directory containing the files
     output_dir : str or Path
         The directory where the combined data will be written to
+    file_type : str, optional
+        The type of files to process ('parquet' or 'csv'), by default 'parquet'
     modify_names : bool, optional
         If True, the experiment names will be modified according to the file specified in the `modify_names_file` argument, by default True
     modify_names_file : str or Path, optional
@@ -52,13 +55,19 @@ def main(
     None
     """
     output_dir = verify_path(Path(output_dir))
-    files = list(Path(files_dir).glob("*.parquet"))
+    files = list(Path(files_dir).glob(f"*.{file_type}"))
     dfs = list()
     for file in files:
         print(
             "Reading file: \033[95m{}\033[0m -".format(file),
         )
-        df = pl.read_parquet(file)
+        if file_type == "parquet":
+            df = pl.read_parquet(file).cast(pl.Float32)
+        elif file_type == "csv": # For deletion experiments
+            df = pl.read_csv(file, schema_overrides={'grRatio': pl.Float32})
+        else:
+            raise ValueError(f"Unsupported file type: {file_type}")
+        
         df = df.with_columns(experiment=pl.lit(file.stem))
         dfs.append(df)
     df = pl.concat(dfs, how="diagonal")
@@ -80,8 +89,12 @@ def main(
     # print(df)
     common_df = df.drop(uncommon_columns)
 
-    df.write_parquet(output_dir / "full.parquet", compression_level=16)
-    common_df.write_parquet(output_dir / "common.parquet", compression_level=16)
+    if file_type == "parquet":
+        df.write_parquet(output_dir / "full.parquet", compression_level=16)
+        common_df.write_parquet(output_dir / "common.parquet", compression_level=16)
+    elif file_type == "csv":
+        df.write_csv(output_dir / "full.csv")
+        common_df.write_csv(output_dir / "common.csv")
 
 
 if __name__ == "__main__":
@@ -90,6 +103,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--files_dir", type=str, required=True)
     parser.add_argument("--output_dir", type=str, required=True)
+    parser.add_argument("--file_type", type=str, choices=["parquet", "csv"], default="parquet")
     parser.add_argument(
         "--modify_names", type=bool, action=argparse.BooleanOptionalAction, default=True
     )

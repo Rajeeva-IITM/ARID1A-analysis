@@ -1,0 +1,597 @@
+Reaction,S1K,S1K_FC5,fc,pval,subSystem
+10FTHFtm,304.29218,7.1111064,-0.954328637,0,"Transport, mitochondrial"
+34DHOXPEGOX,-19.411505,156.87466,1.282424828,0,Tyrosine metabolism
+34DHOXPEGt,-19.411505,156.87466,1.282424828,0,"Transport, extracellular"
+ACETONEt2,7.565148,-298.93198,-1.051928679,0,"Transport, extracellular"
+ACETONEt2m,7.565148,-298.93198,-1.051928679,0,"Transport, mitochondrial"
+ADEt,-259.38776,167.49997,4.645750557,0,"Transport, extracellular"
+ADK1m,26.33319,298.47986,0.837856328,0,Nucleotide interconversion
+ADKd,155.12842,-225.27483,-5.422988299,0,Nucleotide interconversion
+ADNtm,32.306175,353.41818,0.832490869,0,"Transport, mitochondrial"
+ALADGLNexR,-493.11395,220.04335,2.611622438,0,"Transport, extracellular"
+ALAGLNexR,-598.12585,322.1345,3.334381317,0,"Transport, extracellular"
+ALAGLYexR,85.32065,-259.00748,-1.982465449,0,"Transport, extracellular"
+ALDD21,3.1809387,127.391335,0.951276969,0,Fatty acid oxidation
+ARACHCOAtx,15.968989,-8.993006,-3.578276026,0,"Transport, peroxisomal"
+ARACHCPT1,161.10162,3.791941,-0.95400741,0,Fatty acid oxidation
+ARACHCPT2,161.10162,3.791941,-0.95400741,0,Fatty acid oxidation
+ARACHDtr,14.407719,-277.75595,-1.109419524,0,"Transport, endoplasmic reticular"
+ARACHt,192.15642,3.2547069,-0.966688624,0,"Transport, extracellular"
+BDHm,0.31603512,-68.82753,-1.009225754,0,Butanoate metabolism
+BHBtm,0.31603512,-68.82753,-1.009225754,0,"Transport, mitochondrial"
+BILDGLCURtr,2.7264469,-3.4429104,-8.610845155,0,"Transport, endoplasmic reticular"
+BILGLCURt,-166.73296,257.699,4.665828497,0,"Transport, extracellular"
+BILIRUBt2,392.54987,-223.50157,-3.6442338,0,"Transport, extracellular"
+C161CPT2,-15.795962,15.504087,107.2380246,0,Fatty acid oxidation
+C180CPT1,-149.83902,33.4231,1.574201476,0,Fatty acid oxidation
+C180CPT2,-119.82102,40.510635,2.021571874,0,Fatty acid oxidation
+C181CPT1,-191.0773,-13.679526,0.86638271,0,Fatty acid oxidation
+C181CPT2,-192.85858,-3.5749333,0.963601597,0,Fatty acid oxidation
+C204CPT2,18.026709,-1.0212127,-1.120103845,0,Fatty acid oxidation
+CBPPer,75.11199,2.5174804,-0.935141124,0,Glycolysis/gluconeogenesis
+CBPter,75.11199,2.5174804,-0.935141124,0,"Transport, endoplasmic reticular"
+CERT2rt,-1.5981966,1.5728613,125.1637471,0,"Transport, endoplasmic reticular"
+CHAT,247.81744,-125.13325,-3.03992452,0,Glycerophospholipid metabolism
+CHOLATEt,-103.064384,301.15167,2.040595594,0,"Transport, extracellular"
+CHOLtg,100.30072,5.0280094,-0.904527295,0,"Transport, golgi apparatus"
+CITRtm,401.6307,-273.5748,-5.272740121,0,"Transport, mitochondrial"
+CITt4_2,-227.23985,99.53665,2.558874648,0,"Transport, extracellular"
+CYSGLYexR,-46.96408,652.512,1.155112672,0,"Transport, extracellular"
+CYTD,15.9933405,181.82242,0.838300639,0,Pyrimidine catabolism
+CYTK10,147.5108,-34.403873,-1.608342522,0,Nucleotide interconversion
+CYTK12,125.233284,-183.14377,-5.325065835,0,Nucleotide interconversion
+CYTK13n,-134.35345,145.42949,25.26020476,0,Nucleotide interconversion
+CYTK3,179.34329,-209.36374,-12.9480761,0,Nucleotide interconversion
+CYTK3n,8.627617,448.3812,0.962243109,0,Nucleotide interconversion
+CYTK6,678.7812,-31.464203,-1.097214197,0,Nucleotide interconversion
+CYTK7,-473.5428,107.24979,1.585595637,0,Nucleotide interconversion
+CYTK7n,-38.31633,674.20447,1.120512793,0,Nucleotide interconversion
+CYTK8,-291.7412,310.92258,31.41927238,0,Nucleotide interconversion
+CYTK8n,57.86048,-824.0028,-1.1510437,0,Nucleotide interconversion
+DAGt,72.75058,-102.07562,-5.961669457,0,"Transport, extracellular"
+DCK2n,43.169228,-12.686558,-1.832378454,0,Nucleotide interconversion
+DCSPTN1COAtx,0.64295423,-5.0898566,-1.289169507,0,"Transport, peroxisomal"
+DGSNt,137.221,-540.043,-1.681298349,0,"Transport, extracellular"
+DHORD9,269.98907,6.261841,-0.954665556,0,Pyrimidine synthesis
+DIDPtn,564.87244,-60.65495,-1.240590412,0,"Transport, nuclear"
+DINt,-28.459518,-395.26086,-0.865668394,0,"Transport, extracellular"
+DITPtn,-564.87244,60.65495,1.240590412,0,"Transport, nuclear"
+DTDPtn,-60.41498,484.88724,1.284659267,0,"Transport, nuclear"
+DTTPtn,60.41498,-484.88724,-1.284659267,0,"Transport, nuclear"
+DURAD2,592.5061,-18.406237,-1.064122067,0,Pyrimidine catabolism
+ELAIDCPT1,9.897096,242.4474,0.921558853,0,Fatty acid oxidation
+ELAIDCPT2,10.724576,242.91847,0.915435686,0,Fatty acid oxidation
+ELAIDt,2.819739,-428.1526,-1.013258976,0,"Transport, extracellular"
+ESTRONESt,147.97997,-514.58417,-1.807300974,0,"Transport, extracellular"
+ESTRONESt2,5.4266315,164.67789,0.936196503,0,"Transport, extracellular"
+EX_34dhoxpeg[e],-19.411505,156.87466,1.282424828,0,Exchange/demand reaction
+EX_34dhphe[e],-147.08696,3.8173692,1.053289314,0,Exchange/demand reaction
+EX_atp[e],-68.871124,194.31499,2.098038909,0,Exchange/demand reaction
+EX_bhb[e],-0.31603512,68.82753,1.009225754,0,Exchange/demand reaction
+EX_elaid[e],2.060452,430.59436,0.990475308,0,Exchange/demand reaction
+EX_gd1c_hs[e],0.34468728,-1.0876116,-1.927920481,0,Exchange/demand reaction
+EX_i[e],22.9336,-107.27508,-1.543827358,0,Exchange/demand reaction
+EX_ksi[e],-12.354422,-672.64325,-0.963928574,0,Exchange/demand reaction
+EX_ksi_deg1[e],10.9071455,671.11005,0.968015043,0,Exchange/demand reaction
+EX_retn[e],230.56058,-30.014368,-1.299326242,0,Exchange/demand reaction
+EX_s2l2fn2m2masn[e],-108.66125,-1.4136951,0.974313953,0,Exchange/demand reaction
+EX_thym[e],128.83159,-64.47261,-3.003531009,0,Exchange/demand reaction
+EX_tsul[e],6.077774,89.477615,0.872790543,0,Exchange/demand reaction
+EX_urate[e],13.559342,877.285,0.969558448,0,Exchange/demand reaction
+FOLt2,-534.4581,98.04807,1.449339174,0,"Transport, extracellular"
+FUCASE2e,10.9071455,671.11005,0.968015043,0,Keratan sulfate degradation
+FUCASEe,106.68035,1.4136951,-0.973843238,0,N-glycan degradation
+G6PDH2rer,304.9591,-86.04168,-1.786065201,0,Pentose phosphate pathway
+GLXtm,9.813433,-4.2464566,-2.525588153,0,"Transport, mitochondrial"
+GLXtp,3.6116734,-0.23748069,-1.140762963,0,"Transport, peroxisomal"
+GSNt,141.79413,-118.189865,-11.01427743,0,"Transport, extracellular"
+H2O2t,28.909903,-51.939793,-3.510642122,0,"Transport, extracellular"
+H4ETer,1.3017485,15.334763,0.843507032,0,Phosphatidylinositol phosphate metabolism
+HEXCt,3.9267552,-1.5745414,-2.338774118,0,"Transport, extracellular"
+HPDCACRNCPT1,1.0176945,-0.51368064,-3.038359355,0,Fatty acid oxidation
+HPDCACRNCPT2,1.0176945,-0.51368064,-3.038359355,0,Fatty acid oxidation
+HSD11B1r,585.2866,-161.82193,-1.764275888,0,Steroid metabolism
+HSD11B2r,-278.2773,291.02994,44.6423418,0,Steroid metabolism
+HSD3A1r,854.6541,80.76337,-0.827321238,0,Steroid metabolism
+HSD3A2r,-705.0131,-29.673466,0.919221438,0,Steroid metabolism
+IDHPOXOX4,46.424225,2.887281,-0.882896251,0,Tyrosine metabolism
+INSt,-258.28708,95.81536,2.179471285,0,"Transport, extracellular"
+ITCOAL1m,-7.2844257,-303.6398,-0.953143402,0,C5-branched dibasic acid metabolism
+ITCOALm,14.360778,303.6398,0.909680806,0,C5-branched dibasic acid metabolism
+LEUKTRA4t,-257.58774,185.72615,6.168998211,0,"Transport, extracellular"
+LEUKTRF4t,687.88824,39.592304,-0.89115227,0,"Transport, extracellular"
+LEUtec,20.904846,596.4885,0.932280309,0,"Transport, extracellular"
+LGNCCOAtx,-9.951534,14.646703,5.239053843,0,"Transport, peroxisomal"
+LGNCt,20.041891,368.7883,0.896911857,0,"Transport, extracellular"
+LNLNCAt,5.3629823,0.46186778,-0.841414714,0,"Transport, extracellular"
+MANt1r,-174.3768,200.6622,14.26795654,0,"Transport, extracellular"
+MECOALm,654.95764,40.590923,-0.883283707,0,C5-branched dibasic acid metabolism
+MECOAS1m,-654.95764,-40.590923,0.883283707,0,C5-branched dibasic acid metabolism
+MMMm,33.086884,853.7908,0.925385685,0,"Valine, leucine, and isoleucine metabolism"
+MTHFCm,-363.63956,-26.896591,0.862258118,0,Folate metabolism
+MTHFD2m,-399.96234,258.4715,4.653543485,0,Folate metabolism
+MTHFDm,36.32281,-285.36807,-1.291696435,0,Folate metabolism
+NDPK10,-564.87244,60.65495,1.240590412,0,Nucleotide interconversion
+NDPK10n,564.87244,-60.65495,-1.240590412,0,Nucleotide interconversion
+NDPK1m,121.3469,-534.50757,-1.587407899,0,Nucleotide interconversion
+NDPK1n,314.50522,-346.3903,-20.72743918,0,Nucleotide interconversion
+NDPK2n,-568.7676,-23.417437,0.92091176,0,Nucleotide interconversion
+NDPK4n,-398.65082,46.77672,1.265871896,0,Nucleotide interconversion
+NDPK8n,355.0926,-179.45047,-3.043365005,0,Nucleotide interconversion
+NRVNCCOAtx,3.6269863,-0.10780292,-1.061265868,0,"Transport, peroxisomal"
+ODECOAtx,-5.562542,2.715752,2.907939743,0,"Transport, peroxisomal"
+ORNt3m,12.667882,392.3106,0.937439237,0,"Transport, mitochondrial"
+ORNt4m,22.702187,-569.1359,-1.08309219,0,"Transport, mitochondrial"
+ORNTArm,-27.78941,257.69324,1.24174813,0,Urea cycle
+PA_HStg,-100.30072,-5.0280094,0.904527295,0,"Transport, golgi apparatus"
+PCHOLPg_hs,100.30072,5.0280094,-0.904527295,0,Glycerophospholipid metabolism
+PGDIr,29.427063,406.32495,0.864936654,0,Eicosanoid metabolism
+PGESr,-6.2430334,511.30194,1.024722001,0,Eicosanoid metabolism
+PGISr,174.23828,-58.927593,-2.022066525,0,Eicosanoid metabolism
+PI345P3Pn,7.291385,76.0407,0.825004139,0,Inositol phosphate metabolism
+PI45P3Kn,7.291385,76.0407,0.825004139,0,Inositol phosphate metabolism
+PIter,205.15051,-422.6624,-2.886338431,0,"Transport, endoplasmic reticular"
+PRISTANALtx,3.1809387,127.391335,0.951276969,0,"Transport, peroxisomal"
+PROSTGD2t,-212.31793,87.394356,2.399165129,0,"Transport, extracellular"
+PROSTGF2t,-267.4825,466.54944,3.687362696,0,"Transport, extracellular"
+PROSTGI2tr,-174.23828,58.927593,2.022066525,0,"Transport, endoplasmic reticular"
+RAI3,-230.56058,30.014368,1.299326242,0,Vitamin A metabolism
+RDH4,-23.419662,-327.7811,-0.866630917,0,Vitamin A metabolism
+RETI3,-23.419662,-327.7811,-0.866630917,0,Vitamin A metabolism
+SERGLNexR,102.85898,-184.30443,-3.525837276,0,"Transport, extracellular"
+SERGLYexR,-187.74628,97.19591,3.146780979,0,"Transport, extracellular"
+SFGTH,121.94335,9.896543,-0.849870302,0,Tyrosine metabolism
+SUCOAS1m,26.964869,-931.358,-1.059630857,0,Citric acid cycle
+THRCYSNaEx,15.384007,412.76474,0.928137088,0,"Transport, extracellular"
+THYMt,-128.83159,64.47261,3.003531009,0,"Transport, extracellular"
+TMDPP,155.85397,-46.066376,-1.839190871,0,Pyrimidine catabolism
+TMNDNCCPT2,24.849236,1.9639115,-0.853511304,0,Fatty acid oxidation
+TSULt4_3,-6.077774,-89.477615,-0.872790543,0,"Transport, extracellular"
+TTDCAtr,9.352256,-113.13819,-1.180222035,0,"Transport, extracellular"
+TYRt,-2.8914309,56.738705,1.107393772,0,"Transport, extracellular"
+UGT1A10r,1.6401863,-2.2210207,-6.647690547,0,Steroid metabolism
+UMPK3,526.6492,-360.06516,-5.322925839,0,Nucleotide interconversion
+UMPK6n,-79.17566,210.32295,2.207430978,0,Nucleotide interconversion
+UMPK7,-430.99536,-2.5899084,0.988053522,0,Nucleotide interconversion
+URAt,-63.922363,-825.7631,-0.856303465,0,"Transport, extracellular"
+VALtec,-565.9689,138.10506,1.645556139,0,"Transport, extracellular"
+r0074,-869.663,261.28882,1.858974156,0,Urea cycle
+r0242,-15.8727455,199.25905,1.173107212,0,Miscellaneous
+r0245,211.7255,8.063569,-0.926624482,0,Glycerophospholipid metabolism
+r0276,217.69415,4.134985,-0.962719194,0,Purine catabolism
+r0434,-125.70595,174.24069,6.180040146,0,Fatty acid oxidation
+r0475,-51.58408,361.07944,1.333343161,0,Nucleotide interconversion
+r0552,114.76046,-192.69666,-3.944984685,0,"Glycine, serine, alanine, and threonine metabolism"
+r0591,-8.776832,10.991417,8.926387183,0,CoA synthesis
+r0594,644.2545,20.020832,-0.939721281,0,Lysine metabolism
+r0629,-126.18004,44.364697,2.084508055,0,Bile acid synthesis
+r0688,-352.41626,23.457615,1.14261742,0,Bile acid synthesis
+r0739,-352.41626,23.457615,1.14261742,0,Bile acid synthesis
+r0812,277.5251,-76.25216,-1.757699112,0,Purine catabolism
+r0917,-416.6607,452.60583,24.18314264,0,"Transport, mitochondrial"
+r0960,5.2676015,409.53995,0.974602191,0,"Transport, endoplasmic reticular"
+r0998,-125.70595,174.24069,6.180040146,0,"Transport, endoplasmic reticular"
+r1147,517.65204,-38.698246,-1.161594913,0,"Transport, peroxisomal"
+r1501,20.729357,1.9275401,-0.829849588,0,"Transport, extracellular"
+r1544,-267.96625,387.12683,5.49756611,0,"Transport, extracellular"
+r1547,83.76951,-180.33597,-2.73496066,0,"Transport, extracellular"
+r1551,-432.37906,153.71458,2.103223514,0,"Transport, extracellular"
+r1556,481.2141,-446.67584,-26.86559247,0,"Transport, extracellular"
+r1557,365.80914,-59.763596,-1.390553561,0,"Transport, extracellular"
+r1562,97.2382,-541.5065,-1.437745354,0,"Transport, extracellular"
+r1563,-890.591,45.11156,1.106712389,0,"Transport, extracellular"
+r1568,-56.900818,440.9704,1.296304713,0,"Transport, extracellular"
+r1569,-488.27426,417.12997,12.72631411,0,"Transport, extracellular"
+r1570,482.23444,-501.16824,-51.93907317,0,"Transport, extracellular"
+r1576,-15.992636,417.459,1.079671108,0,"Transport, extracellular"
+r1578,-396.38223,256.60156,4.671489605,0,"Transport, extracellular"
+r1580,121.76096,-289.0771,-2.455460209,0,"Transport, extracellular"
+r1581,-359.09512,408.8458,15.43578847,0,"Transport, extracellular"
+r1588,859.2588,-450.167,-3.200811962,0,"Transport, extracellular"
+r1589,137.43042,-780.71716,-1.427275763,0,"Transport, extracellular"
+r1596,-425.7198,630.892,5.149878485,0,"Transport, extracellular"
+r1598,451.6458,-7.041621,-1.031675909,0,"Transport, extracellular"
+r1599,-436.45416,53.67532,1.280450818,0,"Transport, extracellular"
+r1600,-424.8793,349.96042,10.34238533,0,"Transport, extracellular"
+r1603,-881.0016,120.25842,1.316160403,0,"Transport, extracellular"
+r1604,842.4577,-440.7591,-3.194476742,0,"Transport, extracellular"
+r1605,423.1029,-342.45926,-9.493146059,0,"Transport, extracellular"
+r1606,-413.91278,1.7397648,1.008441915,0,"Transport, extracellular"
+r1609,-406.62128,809.2079,3.020043627,0,"Transport, extracellular"
+r1611,-31.770266,66.73796,2.817120939,0,"Transport, extracellular"
+r1612,-29.88999,73.587166,2.368051222,0,"Transport, extracellular"
+r1615,859.6999,-494.59686,-3.709355077,0,"Transport, extracellular"
+r1623,-427.3687,61.094887,1.333602255,0,"Transport, extracellular"
+r1624,-227.15222,66.97935,1.83633811,0,"Transport, extracellular"
+r1626,473.7865,-12.669224,-1.054950116,0,"Transport, extracellular"
+r1627,265.2654,-842.2642,-1.919466102,0,"Transport, extracellular"
+r1629,-653.92285,74.43261,1.256889943,0,"Transport, extracellular"
+r1631,-470.26306,17.345345,1.076593799,0,"Transport, extracellular"
+r1633,-9.922689,860.4753,1.023332337,0,"Transport, extracellular"
+r1636,42.223495,-221.35545,-1.471423323,0,"Transport, extracellular"
+r1640,-416.34723,773.87036,3.329064634,0,"Transport, extracellular"
+r1642,45.793987,-4.830511,-1.2358448,0,"Transport, extracellular"
+r1644,53.943413,-668.74786,-1.175481527,0,"Transport, extracellular"
+r1645,-400.43057,90.77224,1.586273514,0,"Transport, extracellular"
+r1646,-1.2172002,52.35968,1.047600356,0,"Transport, extracellular"
+r1647,-453.3678,115.4723,1.683479386,0,"Transport, extracellular"
+r1650,-71.797195,419.16757,1.413375464,0,"Transport, extracellular"
+r1653,-780.6834,68.23277,1.191543872,0,"Transport, extracellular"
+r1654,-374.21628,60.098564,1.38264995,0,"Transport, extracellular"
+r1655,-855.0261,474.7047,3.496334619,0,"Transport, extracellular"
+r1659,54.18297,-372.8823,-1.340025602,0,"Transport, extracellular"
+r1660,52.040264,-369.69785,-1.327650062,0,"Transport, extracellular"
+r1668,72.3446,-92.621635,-8.135615442,0,"Transport, extracellular"
+r1671,-93.59918,75.360565,9.263844883,0,"Transport, extracellular"
+r1677,109.98373,7.9855366,-0.864616659,0,"Transport, extracellular"
+r1683,9.847846,247.3901,0.923433956,0,"Transport, extracellular"
+r1684,71.624,6.5730553,-0.831884835,0,"Transport, extracellular"
+r1690,48.890324,2.7723756,-0.892673998,0,"Transport, extracellular"
+r1706,77.972496,6.622674,-0.843426657,0,"Transport, extracellular"
+r1710,2.1822958,55.087795,0.923789342,0,"Transport, extracellular"
+r1720,177.41974,6.0692973,-0.933845665,0,"Transport, extracellular"
+r1722,53.506668,4.2277303,-0.853545534,0,"Transport, extracellular"
+r1725,110.158775,6.4953513,-0.888639148,0,"Transport, extracellular"
+r1731,11.960155,181.59317,0.87641489,0,"Transport, extracellular"
+r1732,112.17027,2.4190392,-0.95777897,0,"Transport, extracellular"
+r1733,71.19467,4.462543,-0.882032589,0,"Transport, extracellular"
+r1747,137.31602,5.2242966,-0.926697284,0,"Transport, extracellular"
+r1753,217.07457,13.5361595,-0.882605998,0,"Transport, extracellular"
+r1754,4.1559896,44.08421,0.827695986,0,"Transport, extracellular"
+r1759,41.385418,2.1829786,-0.899790728,0,"Transport, extracellular"
+r1764,4.751494,197.00473,0.95289866,0,"Transport, extracellular"
+r1768,181.54517,5.5426536,-0.940748108,0,"Transport, extracellular"
+r1775,411.12878,3.6180847,-0.982552804,0,"Transport, extracellular"
+r1780,61.80784,5.406392,-0.839129542,0,"Transport, extracellular"
+r1782,182.3264,13.939737,-0.857950653,0,"Transport, extracellular"
+r1787,169.723,2.6861339,-0.968840005,0,"Transport, extracellular"
+r1799,2.763248,33.917183,0.849333947,0,"Transport, extracellular"
+r1806,11.617086,187.2005,0.883138252,0,"Transport, extracellular"
+r1808,5.92147,106.17196,0.894347601,0,"Transport, extracellular"
+r1832,4.938099,95.186966,0.901361384,0,"Transport, extracellular"
+r1841,48.690826,4.465921,-0.831971635,0,"Transport, extracellular"
+r1847,40.21126,2.411225,-0.886856674,0,"Transport, extracellular"
+r1851,119.4382,7.119503,-0.887490013,0,"Transport, extracellular"
+r1854,1.4671823,17.358461,0.844129386,0,"Transport, extracellular"
+r1857,2.455123,48.569042,0.903766271,0,"Transport, extracellular"
+r1858,1.7559683,418.07617,0.991634902,0,"Transport, extracellular"
+r1861,6.088611,169.49312,0.930646419,0,"Transport, extracellular"
+r1862,64.88518,3.6111004,-0.894560681,0,"Transport, extracellular"
+r1884,3.0152702,202.70094,0.970685149,0,"Transport, extracellular"
+r1910,164.09467,1.8995591,-0.977112947,0,"Transport, extracellular"
+r1917,9.961483,162.21214,0.884285607,0,"Transport, extracellular"
+r1919,4.2067146,176.63316,0.953475809,0,"Transport, extracellular"
+r1922,7.0651374,193.39522,0.929510878,0,"Transport, extracellular"
+r1928,119.71945,9.321331,-0.855528904,0,"Transport, extracellular"
+r1930,267.09012,2.6681328,-0.98021834,0,"Transport, extracellular"
+r1931,85.13411,7.497101,-0.838130135,0,"Transport, extracellular"
+r1938,6.7106256,113.96499,0.888782408,0,"Transport, extracellular"
+r1941,436.27274,42.5325,-0.822339025,0,"Transport, extracellular"
+r1947,29.572071,426.88095,0.870426668,0,"Transport, extracellular"
+r1948,8.33302,427.62604,0.961771546,0,"Transport, extracellular"
+r1953,82.809105,5.537828,-0.874634513,0,"Transport, extracellular"
+r1954,188.81383,8.380218,-0.915005366,0,"Transport, extracellular"
+r1956,3.1932304,127.65885,0.951193282,0,"Transport, extracellular"
+r1957,110.1583,3.3507593,-0.940960496,0,"Transport, extracellular"
+r1961,6.8700056,354.9798,0.962028415,0,"Transport, extracellular"
+r1975,14.942116,417.27313,0.930857989,0,"Transport, extracellular"
+r1976,3.2991562,421.47314,0.984466237,0,"Transport, extracellular"
+r1983,3.708153,428.9465,0.982858601,0,"Transport, extracellular"
+r1987,12.313297,212.1396,0.890281674,0,"Transport, extracellular"
+r1994,113.46104,7.848532,-0.870603246,0,"Transport, extracellular"
+r1995,118.96395,4.149846,-0.932585202,0,"Transport, extracellular"
+r1999,367.55234,4.137181,-0.977738514,0,"Transport, extracellular"
+r2002,2.1970627,384.55887,0.988638505,0,"Transport, extracellular"
+r2003,437.01984,4.740347,-0.978538824,0,"Transport, extracellular"
+r2004,16.53365,425.05545,0.925117488,0,"Transport, extracellular"
+r2011,412.3935,26.805119,-0.87793624,0,"Transport, extracellular"
+r2013,4.423263,306.89145,0.971583336,0,"Transport, extracellular"
+r2016,16.325266,279.36285,0.889577805,0,"Transport, extracellular"
+r2026,439.45374,5.285433,-0.976231316,0,"Transport, extracellular"
+r2031,48.510365,3.3028116,-0.872510748,0,"Transport, extracellular"
+r2035,18.968939,421.6965,0.913907758,0,"Transport, extracellular"
+r2037,19.309584,414.15182,0.910905178,0,"Transport, extracellular"
+r2045,10.720787,336.79666,0.938300725,0,"Transport, extracellular"
+r2047,17.364485,429.43686,0.922272012,0,"Transport, extracellular"
+r2052,429.1507,7.6987967,-0.964753095,0,"Transport, extracellular"
+r2054,437.59274,3.7093313,-0.983189152,0,"Transport, extracellular"
+r2057,6.2992477,399.3323,0.968941037,0,"Transport, extracellular"
+r2059,39.906345,3.0908515,-0.856230101,0,"Transport, extracellular"
+r2067,8.461059,431.1301,0.961504875,0,"Transport, extracellular"
+r2070,26.0738,424.6617,0.884305548,0,"Transport, extracellular"
+r2079,-173.29977,97.546074,3.575347764,0,"Transport, extracellular"
+r2080,-482.9026,597.379,9.436717639,0,"Transport, extracellular"
+r2085,321.9223,-136.42561,-2.470922531,0,"Transport, extracellular"
+r2089,69.962555,-116.42716,-4.011434571,0,"Transport, extracellular"
+r2091,-217.087,507.17245,2.496710626,0,"Transport, extracellular"
+r2092,123.88925,5.805371,-0.910476306,0,"Transport, extracellular"
+r2093,706.92365,-35.150715,-1.10465059,0,"Transport, extracellular"
+r2094,1.853229,373.0746,0.990114208,0,"Transport, extracellular"
+r2095,314.7922,-165.56343,-3.218921313,0,"Transport, extracellular"
+r2096,251.33842,-461.63,-3.390380158,0,"Transport, extracellular"
+r2097,94.11666,-321.4311,-1.828074642,0,"Transport, extracellular"
+r2098,-422.11554,462.6397,21.83278458,0,"Transport, extracellular"
+r2103,57.260826,-16.877485,-1.835863759,0,"Transport, extracellular"
+r2106,-387.23264,75.201195,1.482010351,0,"Transport, extracellular"
+r2107,-142.16823,135.37128,40.83291655,0,"Transport, extracellular"
+r2108,82.96596,-436.888,-1.468837475,0,"Transport, extracellular"
+r2109,250.4905,-374.81165,-5.029732263,0,"Transport, extracellular"
+r2113,673.26465,-409.7045,-4.109002022,0,"Transport, extracellular"
+r2117,-49.46234,628.73486,1.170773994,0,"Transport, extracellular"
+r2119,718.5703,-880.7025,-9.864002262,0,"Transport, extracellular"
+r2121,-42.689896,46.99593,20.82794074,0,"Transport, extracellular"
+r2123,-425.50516,-21.530128,0.903675935,0,"Transport, extracellular"
+r2125,-664.8883,-36.373848,0.896261766,0,"Transport, extracellular"
+r2126,-56.65168,432.44635,1.301503375,0,"Transport, extracellular"
+r2127,-385.23868,376.87775,91.15217177,0,"Transport, extracellular"
+r2130,-80.388885,13.899373,1.418092178,0,"Transport, extracellular"
+r2131,-86.22403,381.813,1.583404962,0,"Transport, extracellular"
+r2132,20.410072,1.6119027,-0.853609613,0,"Transport, extracellular"
+r2133,98.976974,-33.983273,-2.04574042,0,"Transport, extracellular"
+r2139,-9.716862,237.11592,1.085460874,0,"Transport, extracellular"
+r2140,24.81236,-94.799965,-1.709050221,0,"Transport, extracellular"
+r2141,-207.11632,112.9617,3.399493865,0,"Transport, extracellular"
+r2147,485.0433,6.2204,-0.974675922,0,"Transport, extracellular"
+r2148,391.2634,13.555031,-0.933031549,0,"Transport, extracellular"
+r2149,-8.921234,-176.61284,-0.903831851,0,"Transport, extracellular"
+r2150,96.406,-358.3051,-1.736207188,0,"Transport, extracellular"
+r2151,3.5057297,48.551678,0.865312939,0,"Transport, extracellular"
+r2154,1.4218831,26.499388,0.898150545,0,"Transport, extracellular"
+r2161,1.7067406,45.24714,0.927301404,0,"Transport, extracellular"
+r2172,0.9037714,23.381435,0.925570216,0,"Transport, extracellular"
+r2184,5.3363714,255.89223,0.959144047,0,"Transport, extracellular"
+r2185,1.0745771,11.576697,0.830123508,0,"Transport, extracellular"
+r2193,-561.26794,-19.625055,0.932431421,0,"Transport, extracellular"
+r2195,-874.3081,204.0317,1.608798673,0,"Transport, extracellular"
+r2197,403.83633,-121.29243,-1.858573951,0,"Transport, extracellular"
+r2211,392.1518,2.3029134,-0.988323559,0,"Transport, extracellular"
+r2213,6.3775225,266.53162,0.95326267,0,"Transport, extracellular"
+r2226,8.598778,168.41554,0.902846532,0,"Transport, extracellular"
+r2239,10.186263,456.72086,0.95636707,0,"Transport, extracellular"
+r2240,460.1593,18.703863,-0.921882218,0,"Transport, extracellular"
+r2243,97.46023,2.6950254,-0.946183048,0,"Transport, extracellular"
+r2246,387.74814,10.0162945,-0.949637055,0,"Transport, extracellular"
+r2247,141.41682,11.666151,-0.847583954,0,"Transport, extracellular"
+r2248,8.141679,104.50795,0.855451298,0,"Transport, extracellular"
+r2249,2.9086628,80.31598,0.93010093,0,"Transport, extracellular"
+r2250,3.885255,51.695057,0.86019312,0,"Transport, extracellular"
+r2254,186.83731,8.520207,-0.912773183,0,"Transport, extracellular"
+r2259,3.1555033,169.66774,0.963482882,0,"Transport, extracellular"
+r2260,414.82535,22.828312,-0.895678645,0,"Transport, extracellular"
+r2261,51.55829,3.9115868,-0.858965363,0,"Transport, extracellular"
+r2262,8.260908,318.669,0.949463737,0,"Transport, extracellular"
+r2263,3.808084,463.8422,0.983713968,0,"Transport, extracellular"
+r2265,273.33844,8.876941,-0.937091016,0,"Transport, extracellular"
+r2266,2.8097186,316.47745,0.982400054,0,"Transport, extracellular"
+r2267,463.6261,1.3386003,-0.994242142,0,"Transport, extracellular"
+r2268,180.32306,8.170711,-0.913305256,0,"Transport, extracellular"
+r2273,2.9423878,313.0423,0.98137639,0,"Transport, extracellular"
+r2289,460.1063,1.8950129,-0.991796504,0,"Transport, extracellular"
+r2290,391.14468,2.3543186,-0.988033929,0,"Transport, extracellular"
+r2291,7.2086835,467.1834,0.969608752,0,"Transport, extracellular"
+r2293,2.3109791,28.473957,0.849862983,0,"Transport, extracellular"
+r2299,477.5079,2.494422,-0.989606625,0,"Transport, extracellular"
+r2300,3.1282055,541.59314,0.988514475,0,"Transport, extracellular"
+r2301,3.948564,467.0975,0.983234914,0,"Transport, extracellular"
+r2306,4.904553,142.23413,0.933334285,0,"Transport, extracellular"
+r2317,-296.45667,99.153015,2.005080617,0,"Transport, extracellular"
+r2321,13.991341,-374.37274,-1.077647407,0,"Transport, extracellular"
+r2322,-871.8509,165.06767,1.467095622,0,"Transport, extracellular"
+r2323,-9.174258,98.87488,1.204552828,0,"Transport, extracellular"
+r2325,68.51267,-867.0017,-1.171605796,0,"Transport, extracellular"
+r2327,62.40714,-369.94025,-1.405856355,0,"Transport, extracellular"
+r2331,260.43152,-501.562,-3.160088057,0,"Transport, extracellular"
+r2334,-374.56836,217.84468,3.779984237,0,"Transport, extracellular"
+r2343,44.131973,-194.50969,-1.586948316,0,"Transport, extracellular"
+r2344,6.102907,-116.51296,-1.110549842,0,"Transport, extracellular"
+r2347,362.92184,-97.221176,-1.73180979,0,"Transport, extracellular"
+r2352,-246.7337,66.29727,1.73485451,0,"Transport, extracellular"
+r2354,383.64664,-120.46941,-1.915500213,0,"Transport, extracellular"
+r2357,225.09206,-678.7648,-1.992310301,0,"Transport, extracellular"
+r2358,165.67827,-118.288536,-5.992157167,0,"Transport, extracellular"
+r2359,286.76584,-80.99627,-1.787252137,0,"Transport, extracellular"
+r2360,-89.24188,823.406,1.243111535,0,"Transport, extracellular"
+r2361,187.02264,-139.48863,-6.869001938,0,"Transport, extracellular"
+r2362,-78.52331,345.69348,1.587814942,0,"Transport, extracellular"
+r2364,-61.98225,354.4282,1.423888602,0,"Transport, extracellular"
+r2365,5.919988,-105.90862,-1.118413214,0,"Transport, extracellular"
+r2368,269.6321,-91.53533,-2.027927881,0,"Transport, extracellular"
+r2369,-84.93449,383.65787,1.56864976,0,"Transport, extracellular"
+r2372,101.644356,-189.87935,-3.303946654,0,"Transport, mitochondrial"
+r2376,263.24524,15.128075,-0.891310881,0,"Transport, mitochondrial"
+r2506,-5.2676015,-409.53995,-0.974602191,0,"Transport, endoplasmic reticular"
+r2508,189.78705,-79.87825,-2.453537063,0,"Transport, endoplasmic reticular"
+r2510,29.823713,2.4179323,-0.85001186,0,"Transport, endoplasmic reticular"
+r2516,4.4139514,454.83615,0.980777571,0,"Transport, peroxisomal"
+r2525,81.09781,835.98315,0.823139255,0,"Transport, extracellular"
+r2534,141.1117,6.4961724,-0.911980678,0,"Transport, extracellular"
+r2535,55.30728,-54.82613,-228.8966768,0,"Transport, extracellular"
+r2537,-156.1944,30.480904,1.484926489,0,"Transport, endoplasmic reticular"
+EX_so3[e],41.54355,-42.030376,-171.6709797,0,Exchange/demand reaction
+RE0344C,2.84763,-188.94937,-1.030602937,0,Fatty acid synthesis
+RE0577C,-184.71118,1.2760935,1.013913297,0,Fatty acid synthesis
+RE1448N,-887.2814,-81.11216,0.832480987,0,Phosphatidylinositol phosphate metabolism
+RE1521M,0.10322571,5.310573,0.961865701,0,Fatty acid oxidation
+RE1526M,0.10322571,5.310573,0.961865701,0,Fatty acid oxidation
+RE1533M,0.10322571,5.310573,0.961865701,0,Fatty acid oxidation
+RE1573M,0.10322571,5.310573,0.961865701,0,Fatty acid oxidation
+RE1845C,-8.520738,112.80042,1.163420839,0,Bile acid synthesis
+RE2269E,-44.28452,145.01787,1.879242452,0,Miscellaneous
+RE2273E,-581.5411,-33.3963,0.891383068,0,Miscellaneous
+RE2541E,-124.1427,84.443115,5.2541043,0,Miscellaneous
+RE2888C,4.219959,-829.3693,-1.010228351,0,Purine catabolism
+RE2973N,882.5341,81.11216,-0.83165572,0,Phosphatidylinositol phosphate metabolism
+RE3036C,-16.608644,2.9307706,1.428541892,0,Arachidonic acid metabolism
+RE3038C,-140.23962,-2.9307706,0.959058984,0,Arachidonic acid metabolism
+RE3269C,7.0916724,0.6105132,-0.84147014,0,Phosphatidylinositol phosphate metabolism
+RE3520E,371.39874,5.1170554,-0.972818909,0,Arachidonic acid metabolism
+RE3597C,61.437263,-2.3358126,-1.079044174,0,Eicosanoid metabolism
+EX_prostgi2[e],174.23828,-58.927593,-2.022066525,0,Exchange/demand reaction
+EX_CE5788[e],-44.28452,145.01787,1.879242452,0,Exchange/demand reaction
+EX_CE5797[e],581.5411,33.3963,-0.891383068,0,Exchange/demand reaction
+EX_CE5798[e],-581.5411,-33.3963,0.891383068,0,Exchange/demand reaction
+EX_CE5854[e],124.1427,-84.443115,-5.2541043,0,Exchange/demand reaction
+EX_CE1926[e],-124.1427,84.443115,5.2541043,0,Exchange/demand reaction
+EX_CE0074[e],4.219959,-829.3693,-1.010228351,0,Exchange/demand reaction
+EX_C04849[e],371.39874,5.1170554,-0.972818909,0,Exchange/demand reaction
+ADPCOACROT,0.044941716,-6.487831,-1.013950796,0,Fatty acid oxidation
+C18OHc,3.2392888,34.099045,0.826489897,0,Fatty acid oxidation
+C2tcx,-67.56231,106.32609,4.485847046,0,"Transport, peroxisomal"
+C6DCCACT,0.044941716,-6.487831,-1.013950796,0,Fatty acid oxidation
+EX_3octdeccrn[e],3.2392888,34.099045,0.826489897,0,Exchange/demand reaction
+FAOXC12DCTc,0.013560884,-3.6006238,-1.007560996,0,Fatty acid oxidation
+FAOXC12DCx,0.013560884,-3.6006238,-1.007560996,0,Fatty acid oxidation
+FAOXC18C18OHm,3.2392888,34.099045,0.826489897,0,Fatty acid oxidation
+HOCDACBP,3.2392888,34.099045,0.826489897,0,Fatty acid oxidation
+HOCTDECCRNe,3.2392888,34.099045,0.826489897,0,Fatty acid oxidation
+CYSSNAT5tc,74.953514,-253.90967,-1.837674609,0,"Transport, extracellular"
+CYSTALArBATtc,235.52757,15.623585,-0.875584206,0,"Transport, extracellular"
+PEHSFABPe,282.86484,-28.042343,-1.220093153,0,"Transport, endoplasmic reticular"
+PROGLYPRO1c,87.94647,-912.4728,-1.213326063,0,"Transport, extracellular"
+CYTDt5le,298.36707,6.4569287,-0.957635038,0,"Transport, extracellular"
+FRDPtcr,1.3235769,-0.24588759,-1.45632369,0,"Transport, endoplasmic reticular"
+SPRMTDe,61.604675,-595.75366,-1.230664749,0,"Transport, extracellular"
+THMDt5le,7.055797,74.534966,0.827044223,0,"Transport, extracellular"
+LKYNRtr2,1.1214712,-0.9080885,-9.511361316,0,"Transport, extracellular"
+HKYNRtr,247.82,-52.540176,-1.538101412,0,"Transport, extracellular"
+EX_hLkynr[e],-247.82,52.540176,1.538101412,0,Exchange/demand reaction
+ARGB0AT3tc,44.374676,4.027038,-0.833599365,0,"Transport, extracellular"
+BETBGTtc,-71.367775,206.53719,2.055975177,0,"Transport, extracellular"
+BUTSMCT1,101.80749,-411.06326,-1.658403119,0,"Transport, extracellular"
+FOLOAT2tc,536.447,8.679683,-0.968155356,0,"Transport, extracellular"
+PPASMCT1,26.9017,-606.87836,-1.092768221,0,"Transport, extracellular"
+MANt4,177.56633,-200.6622,-16.37646369,0,"Transport, extracellular"
+TRPt,-7.075493,133.35101,1.112064357,0,"Transport, extracellular"
+RETt,542.5333,16.596922,-0.940633071,0,"Transport, extracellular"
+L_LACt4r,102.3667,-194.85474,-3.213620456,0,"Transport, extracellular"
+EX_nwharg[e],15.56147,-2.5304816,-1.388379065,0,Exchange/demand reaction
+NWHARGtd,15.56147,-2.5304816,-1.388379065,0,"Transport, extracellular"
+EX_ttdcea[e],12.69874,149.93352,0.84383491,0,Exchange/demand reaction
+TTDCEAt,12.69874,149.93352,0.84383491,0,"Transport, extracellular"
+EX_progly[e],-87.94647,912.4728,1.213326063,0,Exchange/demand reaction
+SPRMt2r,-93.789795,437.0967,1.546390363,0,"Transport, extracellular"
+PROSTGE2t2r,-6.2430334,511.30194,1.024722001,0,"Transport, endoplasmic reticular"
+sink_HC02198[c],321.43414,4.2637935,-0.973817499,0,Exchange/demand reaction
+DHCHOLESTANATEt,-388.3024,-2.5538623,0.986931962,0,"Transport, extracellular"
+XOL7AH3t,402.0613,-2.7623744,-1.013836122,0,"Transport, extracellular"
+ACACt2,-407.5168,255.61548,4.365545856,0,"Transport, extracellular"
+BUTt2r,-122.29983,642.5052,1.470198279,0,"Transport, extracellular"
+DHORTS,-269.98907,-6.261841,0.954665556,0,Pyrimidine synthesis
+DHPR,457.80515,27.28589,-0.887501977,0,Tetrahydrobiopterin metabolism
+DURIPP,-89.75266,655.4166,1.317335646,0,Nucleotide interconversion
+EX_co2[e],-133.47278,261.9539,3.077702688,0,Exchange/demand reaction
+EX_duri[e],496.63785,5.7884216,-0.976958125,0,Exchange/demand reaction
+EX_glypro[e],904.6099,-17.406706,-1.039239504,0,Exchange/demand reaction
+EX_urea[e],132.9116,-578.5882,-1.596448648,0,Exchange/demand reaction
+G3PD1,-53.86187,243.15947,1.569070784,0,Glycerophospholipid metabolism
+GHMT2r,11.158784,-160.3149,-1.149625568,0,"Glycine, serine, alanine, and threonine metabolism"
+GK1,97.41896,-27.11395,-1.771323344,0,Nucleotide interconversion
+GLYPROPRO1c,-904.6099,17.406706,1.039239504,0,"Transport, extracellular"
+L_LACt2r,-335.83966,26.84975,1.173790476,0,"Transport, extracellular"
+MTHFC,49.02974,-194.91037,-1.672189817,0,Folate metabolism
+MTHFD,-115.760475,56.527958,2.908680035,0,Folate metabolism
+NDPK2,6.649532,-210.63437,-1.065196336,0,Nucleotide interconversion
+NDPK4,132.45187,-113.5701,-13.02959463,0,Nucleotide interconversion
+PGMT,596.13983,-15.506858,-1.053413632,0,Glycolysis/gluconeogenesis
+PROD2,23.037703,345.1518,0.874859531,0,Arginine and proline metabolism
+PUNP1,255.52354,-98.35614,-2.251609791,0,Nucleotide interconversion
+PUNP2,2.3308594,-54.530396,-1.089305751,0,Purine catabolism
+PUNP4,523.4094,-43.819332,-1.182736599,0,Purine catabolism
+PUNP5,-262.48895,225.76363,13.29471659,0,Purine catabolism
+UMPK,-345.48337,24.531593,1.152867782,0,Nucleotide interconversion
+UREAt,-336.39117,30.75086,1.201222542,0,"Transport, extracellular"
+VALTA,-777.8305,-14.437067,0.963555073,0,"Valine, leucine, and isoleucine metabolism"
+r0345,-181.15218,175.55182,63.69315899,0,Nucleotide interconversion
+EX_pnto_R[e],-16.18234,5.5919995,2.056056587,0,Exchange/demand reaction
+EX_nac[e],-0.0794824,-13.566543,-0.988350835,0,Exchange/demand reaction
+ALCD1,534.7141,-215.1545,-2.346568821,0,Miscellaneous
+CYTK1,160.81148,-4.7259693,-1.060556161,0,Nucleotide interconversion
+CYTK2,-297.2449,113.376335,2.233232354,0,Nucleotide interconversion
+EX_malt[e],41.89928,-109.723816,-2.235520092,0,Exchange/demand reaction
+EX_ura[e],63.922363,825.7631,0.856303465,0,Exchange/demand reaction
+LDH_L,-444.20114,261.48837,3.862289094,0,Glycolysis/gluconeogenesis
+MDH,-153.40794,-7.270116,0.909507058,0,Citric acid cycle
+MI1PP,306.04666,16.335367,-0.898658328,0,Inositol phosphate metabolism
+r0792,-9.7257185,-144.03116,-0.87349224,0,Folate metabolism
+MTHFD2,46.84257,-574.2971,-1.177617478,0,Folate metabolism
+AHC,-79.4538,339.0064,1.612236619,0,Methionine and cysteine metabolism
+EX_phpyr[e],-130.58653,29.718866,1.589264462,0,Exchange/demand reaction
+PHPYRte,130.58653,-29.718866,-1.589264462,0,"Transport, extracellular"
+APRGSTRNt1e,-16.22485,71.17122,1.590570441,0,"Transport, extracellular"
+MHISTAte,-3.2654498,31.531166,1.231053752,0,"Transport, extracellular"
+CE4890te2,346.48016,-397.02814,-14.70894878,0,"Transport, extracellular"
+CE4890te,-346.48016,397.02814,14.70894878,0,"Transport, extracellular"
+MLTHFte3,530.5615,15.320029,-0.943870504,0,"Transport, extracellular"
+MLTHFte2,-193.54436,-15.320029,0.853301655,0,"Transport, extracellular"
+34DHOXMANDte,41.4906,-134.72469,-1.890030765,0,"Transport, extracellular"
+EX_34dhoxmand[e],41.4906,-134.72469,-1.890030765,0,Exchange/demand reaction
+SPHGNSte,58.48468,-43.32734,-6.71700891,0,"Transport, extracellular"
+EX_sphings[e],61.84658,-40.490585,-4.791963961,0,Exchange/demand reaction
+GGTe_1,4.1601014,-242.34773,-1.0349313,0,Tyrosine metabolism
+NH4tr,-75.11199,-2.5174804,0.935141124,0,"Transport, endoplasmic reticular"
+DM_pail35p_hs[n],882.5341,81.11216,-0.83165572,0,Exchange/demand reaction
+CATr,225.89767,10.178802,-0.913766912,0,ROS detoxification
+EX_5cysgly34dhphe[e],4.1601014,-242.34773,-1.0349313,0,Miscellaneous
+HMR_0167,3.2385595,-13.338968,-1.641272894,0,"Transport, extracellular"
+HMR_0197,4.043197,131.40889,0.9403007,0,Fatty acid oxidation
+HMR_0201,14.292927,154.74104,0.830886946,0,Fatty acid oxidation
+HMR_0268,10.537298,445.0675,0.953743691,0,Fatty acid oxidation
+HMR_1095,-230.21318,170.80423,6.750118197,0,"Transport, nuclear"
+HMR_1307,5.237292,626.75854,0.983426183,0,Eicosanoid metabolism
+HMR_1321,-25.215517,-504.74384,-0.904839806,0,Eicosanoid metabolism
+HMR_1331,-29.427063,-406.32495,-0.864936654,0,"Transport, endoplasmic reticular"
+HMR_2287,6.0703382,100.38068,0.885950576,0,Fatty acid synthesis
+HMR_2611,-6.0699387,-139.85281,-0.916806139,0,Fatty acid oxidation
+HMR_2624,347.98972,-0.619453,-1.003566529,0,"Transport, mitochondrial"
+HMR_2633,6.0703382,100.38068,0.885950576,0,Fatty acid oxidation
+HMR_2634,-2.556911,-314.371,-0.983864401,0,"Transport, mitochondrial"
+HMR_2635,5.5517244,-0.25528637,-1.096399257,0,"Transport, mitochondrial"
+HMR_2644,-341.82852,0.51368064,1.003010011,0,"Transport, mitochondrial"
+HMR_2660,-0.25966817,-3.5721078,-0.864465894,0,Fatty acid oxidation
+HMR_2661,-0.25966817,-3.5721078,-0.864465894,0,"Transport, mitochondrial"
+HMR_2662,0.25966817,3.5721078,0.864465894,0,"Transport, mitochondrial"
+HMR_2679,-255.32307,-3.791941,0.9707316,0,"Transport, mitochondrial"
+HMR_2718,173.66515,-107.29319,-4.233087825,0,"Transport, mitochondrial"
+HMR_2722,-141.35,1.9639115,1.028179448,0,"Transport, mitochondrial"
+HMR_2748,288.85635,6.398772,-0.956655983,0,"Transport, mitochondrial"
+HMR_2753,-557.246,-13.039194,0.954271322,0,"Transport, mitochondrial"
+HMR_2757,613.6238,1.0212127,-0.996677065,0,"Transport, mitochondrial"
+HMR_2861,0.1942879,4.6696024,0.92011008,0,"Transport, endoplasmic reticular"
+HMR_2862,-0.1942879,-4.6696024,-0.92011008,0,"Transport, endoplasmic reticular"
+HMR_2884,-181.38461,29.353384,1.386149401,0,"Transport, endoplasmic reticular"
+HMR_2886,181.38461,-29.353384,-1.386149401,0,"Transport, endoplasmic reticular"
+HMR_3121,104.41418,8.006561,-0.857560775,0,Fatty acid oxidation
+HMR_4700,535.701,44.50431,-0.846591155,0,"Glycine, serine, alanine, and threonine metabolism"
+HMR_6515,6.077774,89.477615,0.872790543,0,Methionine and cysteine metabolism
+HMR_6854,-46.424225,-2.887281,0.882896251,0,Phenylalanine metabolism
+HMR_7748,723.4005,28.668959,-0.92375981,0,Glycolysis/gluconeogenesis
+HMR_7749,-723.4005,-28.668959,0.92375981,0,Glycolysis/gluconeogenesis
+HMR_7758,-1.4618758,6.174807,1.620367926,0,"Transport, mitochondrial"
+HMR_8476,-224.53415,-7.614467,0.93440007,0,"Transport, nuclear"
+HMR_9561,542.5333,16.596922,-0.940633071,0,Miscellaneous
+HMR_9604,6.460228,120.10013,0.897910719,0,"Transport, extracellular"
+HMR_9639,4.219959,-829.3693,-1.010228351,0,"Transport, extracellular"
+HMR_9805,246.0216,21.329762,-0.840436492,0,Glycerophospholipid metabolism
+3DHLCAt,-60.476124,705.3688,1.187554067,0,"Transport, extracellular"
+COPROSTt,-52.40794,647.62,1.176098389,0,"Transport, extracellular"
+EX_3dhlchol[e],5.541019,-712.99023,-1.015664782,0,Exchange/demand reaction
+EX_hyochol[e],6.965102,-1.0103424,-1.339339418,0,Exchange/demand reaction
+HDCA24GSc,99.37188,5.9732394,-0.886596752,0,Bile acid synthesis
+ICDCHOLt,11.248847,-52.21841,-1.549131918,0,"Transport, extracellular"
+1OHMDZtep,0.087354936,-1.263951,-1.148487569,0,Drug metabolism
+2HATVLACthc,132.74512,-668.7208,-1.49534,0,Drug metabolism
+35DHPVSthc,-708.1799,-1.4727207,0.99584946,0,Drug metabolism
+3HPVSthc,21.760557,-654.71783,-1.068758374,0,Drug metabolism
+4HATVACIDthc,-699.1279,-4.8263783,0.98628781,0,Drug metabolism
+ALLOP2tu,567.1102,4.8519616,-0.983033978,0,Drug metabolism
+CRVSthc,-153.50453,11.993439,1.169505271,0,Drug metabolism
+EX_1ohmdz[e],0.087354936,-1.263951,-1.148487569,0,Exchange/demand reaction
+EX_ibup_S[e],-9.320077,-0.63512063,0.872404231,0,Exchange/demand reaction
+FVStu,-19.750704,-424.1559,-0.911014144,0,Drug metabolism
+IBUP_Stdhep,9.320077,929.799,0.980151447,0,Drug metabolism
+1OHMDZitr,0.087354936,-1.263951,-1.148487569,0,Drug metabolism
+ATVLACitr,2.8908641,0.164407,-0.892378131,0,Drug metabolism
+EX_caproic[e],-3.2385595,13.338968,1.641272894,0,Exchange/demand reaction
+EX_M00260[e],0.62262803,-1.1251606,-3.477961229,0,Exchange/demand reaction
+EX_M02745[e],-0.61182004,2.2614527,1.741765111,0,Exchange/demand reaction
+EX_M02837[e],-542.5333,-16.596922,0.940633071,0,Exchange/demand reaction
