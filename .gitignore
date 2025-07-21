@@ -2,7 +2,7 @@
 .Rproj.user
 .Rhistory
 matrix.txt 
-.vscode/
+*.vscode/*
 
 # Large folders
 outputs/sampling/*
