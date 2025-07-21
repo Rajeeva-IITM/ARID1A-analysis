@@ -31,13 +31,19 @@ library(progress)
 # }
 
 
-rxn_df <- read_csv("../data/recon_reaction_names.csv", show_col_types = F) 
+rxn_df <- read_csv("../data/recon-reaction-data.csv", show_col_types = F) 
 
 # Define helper functions
 flux_change <- function(x1, x2) {
     m1 <- mean(x1)
     m2 <- mean(x2)
     return((m2 - m1) / abs(m2 + m1))
+}
+
+flux_change_median <- function(x1, x2) {
+  m1 <- median(x1)
+  m2 <- median(x2)
+  return((m2 - m1) / abs(m2 + m1))
 }
 
 custom_bootstrap <- function(data,statistic=mean, conf.interval=0.95,
@@ -135,6 +141,20 @@ construct_comprehensive_df <- function(flux, differential_reactions,  conditions
   
   final_df <- left_join(differential_reactions, subsystem, by="Reaction")
   return(final_df)
+}
+
+# UTILITY functions
+
+get_unique_active <- function(df, condition, cutoff='more') {
+  if(cutoff=='more'){
+    cutoff_filter <- df$fc > 0
+  } else {
+    cutoff_filter <- df$fc < 0
+  }
+  df %>% 
+    filter((is.na(.data[[condition]])) | cutoff_filter) %>%
+    # pluck('Reaction') %>% 
+    return
 }
 
 

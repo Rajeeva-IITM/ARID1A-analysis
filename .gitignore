@@ -2,11 +2,16 @@
 .Rproj.user
 .Rhistory
 matrix.txt 
+.vscode/
 
 # Large folders
 outputs/sampling/*
 outputs/
 data/
+.env
+
+# Compass
+*_tmp*
 
 # R files
 r_code/renv/*

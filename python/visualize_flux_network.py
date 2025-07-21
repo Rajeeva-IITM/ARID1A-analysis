@@ -1,11 +1,14 @@
 import polars as pl 
 # import numpy as np
-# import cobra as cb
+import cobra as cb
 import sammi 
 from argparse import ArgumentParser
 # from pathlib import Path
 from cobra.io.mat import load_matlab_model
 
+
+cobra_config = cb.Configuration()
+cobra_config.solver = "glpk"
 
 def visualize_flux_network(
     model_path,
@@ -41,9 +44,9 @@ def visualize_flux_network(
     elif fc_cutoff == 'none':
         relevant_condition = 'fc'
     else:
-        raise Exception("fc_cutoff must be 'more' or 'less' or 'none")
+        raise Exception("fc_cutoff must be 'more' or 'less' or 'none'")
     
-    reaction_df = reaction_df.join(subsystem_df, 'Reaction')
+    # reaction_df = reaction_df.join(subsystem_df, 'Reaction')
     
     plot_df = (
         reaction_df
