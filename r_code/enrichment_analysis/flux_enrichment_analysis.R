@@ -61,6 +61,7 @@ FEA <- function(given_reactions, total_reactions, groups) {
     return()
 }
 
+# Generic plotting function for FEA result
 plot_FEA <- function(fea_result, n = 10, p.cutoff = 0.05) {
   fea_result %>%
     filter(Adj_pval < p.cutoff) %>%

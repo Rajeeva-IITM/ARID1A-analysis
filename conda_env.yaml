@@ -258,4 +258,4 @@ dependencies:
   - zstd=1.5.6=h0ea2cb4_0
   - pip:
       - polars==1.2.1
-prefix: H:\Rajeeva\OneDrive - smail.iitm.ac.in\Projects\NUS collaboration\conda_env
+      - sammi

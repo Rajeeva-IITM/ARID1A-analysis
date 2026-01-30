@@ -151,6 +151,11 @@ tcga_trunc_rxn <- tcga_wt_trunc %>%
   filter(!is.na(Truncating)) %>% 
   pluck('Reaction')
 
+tcga_wt_rxn <- tcga_wt_trunc %>% 
+  get_unique_active('Truncating', 'less') %>% 
+  filter(!is.na(WT)) %>% 
+  pluck('Reaction')
+
 tcga_mutant_rxn <- tcga_wt_mutant %>% 
   get_unique_active('WT', ) %>% 
   filter(!is.na(mutant)) %>% 
@@ -163,6 +168,7 @@ trunc_mut <- intersect(tcga_mutant_rxn, tcga_trunc_rxn)
 trunc_mut_ges <- intersect(trunc_mut, ges_ko_rxn)
 
 active_everywhere <- intersect(active_all, tcga_trunc_rxn) 
+inactive_everywhere <- intersect(inactive_all, tcga_wt_rxn)
 
 ## Venn diagrams
 

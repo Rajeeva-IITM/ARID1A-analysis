@@ -1,10 +1,12 @@
-import cobra as cb
-import os
-import polars as pl
-from pathlib import Path
-from argparse import ArgumentParser
-from cobra.sampling import OptGPSampler
 import logging
+import os
+from argparse import ArgumentParser
+from pathlib import Path
+
+import cobra as cb
+import polars as pl
+from cobra.sampling import OptGPSampler
+
 # from typing import Integer
 
 
@@ -25,6 +27,7 @@ def verify_path(path: Path):
         print("Creating directory: \033[32m{}\033[0m".format(path))
         os.makedirs(path)
     return path
+
 
 def main(
     model_dir: str,
@@ -67,7 +70,7 @@ def main(
         # fix lower bound of growth reaction in the model
         try:
             model.reactions.get_by_id(growth_reaction).lower_bound = (  # type: ignore
-                growth_percent * growth # type: ignore
+                growth_percent * growth  # type: ignore
             )  # Hardcoded for now
         except Exception as e:
             logger.error(

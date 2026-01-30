@@ -5,6 +5,12 @@ source('./sampling_analysis/sampling_analysis.r')
 source('./enrichment_analysis/flux_enrichment_analysis.R')
 source('theme_set.R')
 
+library(showtext)
+
+# To be able to print reaction arrows \u2192, \u21bc
+font_add("FreeSans", "../data/freesans-2-cufonfonts/FreeSans.otf") # need to run this only once every R session
+showtext_auto()
+
 df <- read_parquet(
   '../outputs/sampling/clus_vs_disp_median/loopless/final/full.parquet'
 )
